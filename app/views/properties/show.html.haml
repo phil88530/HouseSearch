@@ -1,0 +1,18 @@
+%p#notice= notice
+
+%p
+  %b Name:
+  = @property.name
+%p
+  %b Bedroom:
+  = @property.bedroom
+%p
+  %b Latitude:
+  = @property.latitude
+%p
+  %b Longitude:
+  = @property.longitude
+
+= link_to 'Edit', edit_property_path(@property)
+\|
+= link_to 'Back', properties_path

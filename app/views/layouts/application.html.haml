@@ -1,0 +1,14 @@
+%head
+  %title Welcome to House Search .com
+  = stylesheet_link_tag     'application'
+  = javascript_include_tag  "application"
+  = csrf_meta_tags
+  = yield :head
+
+%body
+  Coming Soon
+  = yield
+
+  .footer
+    %span#cdSiteSeal1
+      %script{:type => "text/javascript", :src=> "//tracedseals.starfieldtech.com/siteseal/get?scriptId=cdSiteSeal1&amp;cdSealType=Seal1&amp;sealId=55e4ye7y7mb7381797c55ea1ec28d31wfry7mb7355e4ye78e8462ec024389d28"}
