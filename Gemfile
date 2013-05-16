@@ -27,8 +27,10 @@ group :assets do
 end
 
 gem 'sass-rails'
-# gem 'jquery-rails'
 gem 'haml-rails'
+gem 'geocoder'
+#
+# gem 'jquery-rails'
 # gem 'prototype-rails'
 
 # To use ActiveModel has_secure_password

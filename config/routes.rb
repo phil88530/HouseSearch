@@ -1,6 +1,6 @@
 Phil88530::Application.routes.draw do
   resources :properties
-
+  match "properties/search" => "properties#search_property", :as => "search_property", :via => :posT
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

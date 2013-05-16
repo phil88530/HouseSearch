@@ -6,7 +6,10 @@
   = yield :head
 
 %body
-  Coming Soon
+  - if flash[:notice]
+    %p.notice
+      = flash[:notice]
+
   = yield
 
   .footer

@@ -1,5 +1,16 @@
-%h1 Listing properties
+%h1 Saerch Properties
+= form_for @property, :url => search_property_path do |f|
+  .field
+    = f.label "Location/Address"
+    = f.text_field :name
+  .field
+    = f.label :bedroom
+    = f.number_field :bedroom
 
+  .actions
+    = f.submit 'Search'
+
+%h1 All properties
 %table
   %tr
     %th Name

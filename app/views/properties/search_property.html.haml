@@ -1,0 +1,22 @@
+%h1 Search Result
+
+
+%h1 All properties
+%table
+  %tr
+    %th Name
+    %th Bedroom
+    %th Latitude
+    %th Longitude
+    %th
+    %th
+    %th
+
+  - @properties.each do |property|
+    %tr
+      %td= property.name
+      %td= property.bedroom
+      %td= property.latitude
+      %td= property.longitude
+      %td= link_to 'Show', property
+

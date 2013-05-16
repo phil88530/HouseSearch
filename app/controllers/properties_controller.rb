@@ -2,6 +2,7 @@ class PropertiesController < ApplicationController
   # GET /properties
   # GET /properties.json
   def index
+    @property = Property.new  #for custom search
     @properties = Property.all
 
     respond_to do |format|
@@ -35,6 +36,16 @@ class PropertiesController < ApplicationController
   # GET /properties/1/edit
   def edit
     @property = Property.find(params[:id])
+  end
+
+  # POST search method
+  def search_property
+    property = Property.new(params[:property])
+    if !(property.name.empty? && property.bedroom.empty?)
+      @properties = Property.find(:all, :conditions => ["bedroom >= ?", property.bedroom], :order => :bedroom)
+    else
+      redirect_to properties_path, :notice => "Must fill both location/area, and a minimum benroom number !"
+    end
   end
 
   # POST /properties
