@@ -554,4 +554,209 @@ bash: syntax error near unexpected token `;'
 bash-3.2$ ls
 assets		controllers	helpers		mailers		models		views
 bash-3.2$ cd controllers/
+bash-3.2$ git st
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	[31mmodified:   ../Gemfile[m
+#	[31mmodified:   controllers/properties_controller.rb[m
+#	[31mmodified:   models/property.rb[m
+#	[31mmodified:   views/properties/index.html.haml[m
+#	[31mmodified:   views/properties/search_property.html.haml[m
+#	[31mmodified:   views/properties/show.html.haml[m
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	[31mviews/properties/_nearby_properties.html.haml[m
+#	[31mviews/properties/_search_form.html.haml[m
+#	[31m../plugin[m
+#	[31m../ruby[m
+#	[31m../typescript[m
+#	[31m../vendor/plugins/geokit-rails3/[m
+no changes added to commit (use "git add" and/or "git commit -a")
+bash-3.2$ git add .
+bash-3.2$ git st
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	[32mmodified:   controllers/properties_controller.rb[m
+#	[32mmodified:   models/property.rb[m
+#	[32mnew file:   views/properties/_nearby_properties.html.haml[m
+#	[32mnew file:   views/properties/_search_form.html.haml[m
+#	[32mmodified:   views/properties/index.html.haml[m
+#	[32mmodified:   views/properties/search_property.html.haml[m
+#	[32mmodified:   views/properties/show.html.haml[m
+#
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	[31mmodified:   ../Gemfile[m
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	[31m../plugin[m
+#	[31m../ruby[m
+#	[31m../typescript[m
+#	[31m../vendor/plugins/geokit-rails3/[m
+bash-3.2$ git ci [K[K[K[K[K[K[Kcd ..
+bash-3.2$ git st
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	[32mmodified:   app/controllers/properties_controller.rb[m
+#	[32mmodified:   app/models/property.rb[m
+#	[32mnew file:   app/views/properties/_nearby_properties.html.haml[m
+#	[32mnew file:   app/views/properties/_search_form.html.haml[m
+#	[32mmodified:   app/views/properties/index.html.haml[m
+#	[32mmodified:   app/views/properties/search_property.html.haml[m
+#	[32mmodified:   app/views/properties/show.html.haml[m
+#
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	[31mmodified:   Gemfile[m
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	[31mplugin[m
+#	[31mruby[m
+#	[31mtypescript[m
+#	[31mvendor/plugins/geokit-rails3/[m
+bash-3.2$ git add .
+bash-3.2$ git st
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	[32mmodified:   Gemfile[m
+#	[32mmodified:   app/controllers/properties_controller.rb[m
+#	[32mmodified:   app/models/property.rb[m
+#	[32mnew file:   app/views/properties/_nearby_properties.html.haml[m
+#	[32mnew file:   app/views/properties/_search_form.html.haml[m
+#	[32mmodified:   app/views/properties/index.html.haml[m
+#	[32mmodified:   app/views/properties/search_property.html.haml[m
+#	[32mmodified:   app/views/properties/show.html.haml[m
+#	[32mnew file:   plugin[m
+#	[32mnew file:   ruby[m
+#	[32mnew file:   typescript[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/CHANGELOG.rdoc[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/CONFIG.markdown[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/Gemfile[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/MIT-LICENSE[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/README.markdown[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/Rakefile[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/geokit-rails3.gemspec[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/lib/geokit-rails3.rb[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/lib/geokit-rails3/acts_as_mappable.old.rb[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/lib/geokit-rails3/acts_as_mappable.rb[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/lib/geokit-rails3/adapters/abstract.rb[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/lib/geokit-rails3/adapters/mysql.rb[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/lib/geokit-rails3/adapters/mysql2.rb[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/lib/geokit-rails3/adapters/postgresql.rb[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/lib/geokit-rails3/adapters/sqlite.rb[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/lib/geokit-rails3/adapters/sqlserver.rb[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/lib/geokit-rails3/core_extensions.rb[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/lib/geokit-rails3/defaults.rb[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/lib/geokit-rails3/geocoder_control.rb[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/lib/geokit-rails3/ip_geocode_lookup.rb[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/lib/geokit-rails3/railtie.rb[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/lib/geokit-rails3/version.rb[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/test/acts_as_mappable_test.rb[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/test/boot.rb[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/test/database.yml[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/test/fixtures/companies.yml[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/test/fixtures/custom_locations.yml[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/test/fixtures/locations.yml[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/test/fixtures/mock_addresses.yml[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/test/fixtures/mock_families.yml[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/test/fixtures/mock_houses.yml[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/test/fixtures/mock_organizations.yml[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/test/fixtures/mock_people.yml[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/test/fixtures/stores.yml[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/test/ip_geocode_lookup_test.disabled.rb[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/test/models/company.rb[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/test/models/custom_location.rb[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/test/models/location.rb[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/test/models/mock_address.rb[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/test/models/mock_family.rb[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/test/models/mock_house.rb[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/test/models/mock_organization.rb[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/test/models/mock_person.rb[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/test/models/store.rb[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/test/schema.rb[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/test/tasks.rake[m
+#	[32mnew file:   vendor/plugins/geokit-rails3/test/test_helper.rb[m
+#
+bash-3.2$ git ci -m ""a"d"d"e"d" "g"e"o"c"o"d"e"r" "a"n"d" "i"m"p"l"e"m"e"n"t"e"d" "g"e"o" "s"e"a"r"c"h" "f"o"r" "p"r"o"p"e"r"t"i"e"s"
+[master 31749de] added geocoder and implemented geo search for properties
+ 56 files changed, 3429 insertions(+), 40 deletions(-)
+ create mode 100644 app/views/properties/_nearby_properties.html.haml
+ create mode 100644 app/views/properties/_search_form.html.haml
+ create mode 100644 plugin
+ create mode 100644 ruby
+ create mode 100644 typescript
+ create mode 100644 vendor/plugins/geokit-rails3/CHANGELOG.rdoc
+ create mode 100644 vendor/plugins/geokit-rails3/CONFIG.markdown
+ create mode 100644 vendor/plugins/geokit-rails3/Gemfile
+ create mode 100644 vendor/plugins/geokit-rails3/MIT-LICENSE
+ create mode 100644 vendor/plugins/geokit-rails3/README.markdown
+ create mode 100644 vendor/plugins/geokit-rails3/Rakefile
+ create mode 100644 vendor/plugins/geokit-rails3/geokit-rails3.gemspec
+ create mode 100644 vendor/plugins/geokit-rails3/lib/geokit-rails3.rb
+ create mode 100644 vendor/plugins/geokit-rails3/lib/geokit-rails3/acts_as_mappable.old.rb
+ create mode 100644 vendor/plugins/geokit-rails3/lib/geokit-rails3/acts_as_mappable.rb
+ create mode 100644 vendor/plugins/geokit-rails3/lib/geokit-rails3/adapters/abstract.rb
+ create mode 100644 vendor/plugins/geokit-rails3/lib/geokit-rails3/adapters/mysql.rb
+ create mode 100644 vendor/plugins/geokit-rails3/lib/geokit-rails3/adapters/mysql2.rb
+ create mode 100644 vendor/plugins/geokit-rails3/lib/geokit-rails3/adapters/postgresql.rb
+ create mode 100644 vendor/plugins/geokit-rails3/lib/geokit-rails3/adapters/sqlite.rb
+ create mode 100644 vendor/plugins/geokit-rails3/lib/geokit-rails3/adapters/sqlserver.rb
+ create mode 100644 vendor/plugins/geokit-rails3/lib/geokit-rails3/core_extensions.rb
+ create mode 100644 vendor/plugins/geokit-rails3/lib/geokit-rails3/defaults.rb
+ create mode 100644 vendor/plugins/geokit-rails3/lib/geokit-rails3/geocoder_control.rb
+ create mode 100644 vendor/plugins/geokit-rails3/lib/geokit-rails3/ip_geocode_lookup.rb
+ create mode 100644 vendor/plugins/geokit-rails3/lib/geokit-rails3/railtie.rb
+ create mode 100644 vendor/plugins/geokit-rails3/lib/geokit-rails3/version.rb
+ create mode 100644 vendor/plugins/geokit-rails3/test/acts_as_mappable_test.rb
+ create mode 100644 vendor/plugins/geokit-rails3/test/boot.rb
+ create mode 100644 vendor/plugins/geokit-rails3/test/database.yml
+ create mode 100644 vendor/plugins/geokit-rails3/test/fixtures/companies.yml
+ create mode 100644 vendor/plugins/geokit-rails3/test/fixtures/custom_locations.yml
+ create mode 100644 vendor/plugins/geokit-rails3/test/fixtures/locations.yml
+ create mode 100644 vendor/plugins/geokit-rails3/test/fixtures/mock_addresses.yml
+ create mode 100644 vendor/plugins/geokit-rails3/test/fixtures/mock_families.yml
+ create mode 100644 vendor/plugins/geokit-rails3/test/fixtures/mock_houses.yml
+ create mode 100644 vendor/plugins/geokit-rails3/test/fixtures/mock_organizations.yml
+ create mode 100644 vendor/plugins/geokit-rails3/test/fixtures/mock_people.yml
+ create mode 100644 vendor/plugins/geokit-rails3/test/fixtures/stores.yml
+ create mode 100644 vendor/plugins/geokit-rails3/test/ip_geocode_lookup_test.disabled.rb
+ create mode 100644 vendor/plugins/geokit-rails3/test/models/company.rb
+ create mode 100644 vendor/plugins/geokit-rails3/test/models/custom_location.rb
+ create mode 100644 vendor/plugins/geokit-rails3/test/models/location.rb
+ create mode 100644 vendor/plugins/geokit-rails3/test/models/mock_address.rb
+ create mode 100644 vendor/plugins/geokit-rails3/test/models/mock_family.rb
+ create mode 100644 vendor/plugins/geokit-rails3/test/models/mock_house.rb
+ create mode 100644 vendor/plugins/geokit-rails3/test/models/mock_organization.rb
+ create mode 100644 vendor/plugins/geokit-rails3/test/models/mock_person.rb
+ create mode 100644 vendor/plugins/geokit-rails3/test/models/store.rb
+ create mode 100644 vendor/plugins/geokit-rails3/test/schema.rb
+ create mode 100644 vendor/plugins/geokit-rails3/test/tasks.rake
+ create mode 100644 vendor/plugins/geokit-rails3/test/test_helper.rb
+bash-3.2$ git push origin HEAD
+Counting objects: 107, done.
+Delta compression using up to 4 threads.
+Compressing objects:   1% (1/85)   Compressing objects:   2% (2/85)   Compressing objects:   3% (3/85)   Compressing objects:   4% (4/85)   Compressing objects:   5% (5/85)   Compressing objects:   7% (6/85)   Compressing objects:   8% (7/85)   Compressing objects:   9% (8/85)   Compressing objects:  10% (9/85)   Compressing objects:  11% (10/85)   Compressing objects:  12% (11/85)   Compressing objects:  14% (12/85)   Compressing objects:  15% (13/85)   Compressing objects:  16% (14/85)   Compressing objects:  17% (15/85)   Compressing objects:  18% (16/85)   Compressing objects:  20% (17/85)   Compressing objects:  21% (18/85)   Compressing objects:  22% (19/85)   Compressing objects:  23% (20/85)   Compressing objects:  24% (21/85)   Compressing objects:  25% (22/85)   Compressing objects:  27% (23/85)   Compressing objects:  28% (24/85)   Compressing objects:  29% (25/85)   Compressing objects:  30% (26/85)   Compressing objects:  31% (27/85)   Compressing objects:  32% (28/85)   Compressing objects:  34% (29/85)   Compressing objects:  35% (30/85)   Compressing objects:  36% (31/85)   Compressing objects:  37% (32/85)   Compressing objects:  38% (33/85)   Compressing objects:  40% (34/85)   Compressing objects:  41% (35/85)   Compressing objects:  42% (36/85)   Compressing objects:  43% (37/85)   Compressing objects:  44% (38/85)   Compressing objects:  45% (39/85)   Compressing objects:  47% (40/85)   Compressing objects:  48% (41/85)   Compressing objects:  49% (42/85)   Compressing objects:  50% (43/85)   Compressing objects:  51% (44/85)   Compressing objects:  52% (45/85)   Compressing objects:  54% (46/85)   Compressing objects:  55% (47/85)   Compressing objects:  56% (48/85)   Compressing objects:  57% (49/85)   Compressing objects:  58% (50/85)   Compressing objects:  60% (51/85)   Compressing objects:  61% (52/85)   Compressing objects:  62% (53/85)   Compressing objects:  63% (54/85)   Compressing objects:  64% (55/85)   Compressing objects:  65% (56/85)   Compressing objects:  67% (57/85)   Compressing objects:  68% (58/85)   Compressing objects:  69% (59/85)   Compressing objects:  70% (60/85)   Compressing objects:  71% (61/85)   Compressing objects:  72% (62/85)   Compressing objects:  74% (63/85)   Compressing objects:  75% (64/85)   Compressing objects:  76% (65/85)   Compressing objects:  77% (66/85)   Compressing objects:  78% (67/85)   Compressing objects:  80% (68/85)   Compressing objects:  81% (69/85)   Compressing objects:  82% (70/85)   Compressing objects:  83% (71/85)   Compressing objects:  84% (72/85)   Compressing objects:  85% (73/85)   Compressing objects:  87% (74/85)   Compressing objects:  88% (75/85)   Compressing objects:  89% (76/85)   Compressing objects:  90% (77/85)   Compressing objects:  91% (78/85)   Compressing objects:  92% (79/85)   Compressing objects:  94% (80/85)   Compressing objects:  95% (81/85)   Compressing objects:  96% (82/85)   Compressing objects:  97% (83/85)   Compressing objects:  98% (84/85)   Compressing objects: 100% (85/85)   Compressing objects: 100% (85/85), done.
+Writing objects:   1% (1/89)   Writing objects:   2% (2/89)   Writing objects:   3% (3/89)   Writing objects:   5% (5/89)   Writing objects:   6% (6/89)   Writing objects:   7% (7/89)   Writing objects:   8% (8/89)   Writing objects:  10% (9/89)   Writing objects:  11% (10/89)   Writing objects:  12% (11/89)   Writing objects:  13% (12/89)   Writing objects:  14% (13/89)   Writing objects:  15% (14/89)   Writing objects:  16% (15/89)   Writing objects:  17% (16/89)   Writing objects:  19% (17/89)   Writing objects:  20% (18/89)   Writing objects:  21% (19/89)   Writing objects:  22% (20/89)   Writing objects:  23% (21/89)   Writing objects:  24% (22/89)   Writing objects:  25% (23/89)   Writing objects:  26% (24/89)   Writing objects:  28% (25/89)   Writing objects:  29% (26/89)   Writing objects:  30% (27/89)   Writing objects:  31% (28/89)   Writing objects:  32% (29/89)   Writing objects:  33% (30/89)   Writing objects:  34% (31/89)   Writing objects:  35% (32/89)   Writing objects:  37% (33/89)   Writing objects:  38% (34/89)   Writing objects:  39% (35/89)   Writing objects:  40% (36/89)   Writing objects:  41% (37/89)   Writing objects:  43% (39/89)   Writing objects:  44% (40/89)   Writing objects:  46% (41/89)   Writing objects:  47% (42/89)   Writing objects:  49% (44/89)   Writing objects:  50% (45/89)   Writing objects:  51% (46/89)   Writing objects:  52% (47/89)   Writing objects:  53% (48/89)   Writing objects:  55% (49/89)   Writing objects:  56% (50/89)   Writing objects:  57% (51/89)   Writing objects:  58% (52/89)   Writing objects:  59% (53/89)   Writing objects:  60% (54/89)   Writing objects:  61% (55/89)   Writing objects:  62% (56/89)   Writing objects:  64% (57/89)   Writing objects:  65% (58/89)   Writing objects:  66% (59/89)   Writing objects:  67% (60/89)   Writing objects:  68% (61/89)   Writing objects:  69% (62/89)   Writing objects:  70% (63/89)   Writing objects:  71% (64/89)   Writing objects:  73% (65/89)   Writing objects:  74% (66/89)   Writing objects:  75% (67/89)   Writing objects:  76% (68/89)   Writing objects:  77% (69/89)   Writing objects:  78% (70/89)   Writing objects:  79% (71/89)   Writing objects:  80% (72/89)   Writing objects:  82% (73/89)   Writing objects:  83% (74/89)   Writing objects:  84% (75/89)   Writing objects:  85% (76/89)   Writing objects:  86% (77/89)   Writing objects:  87% (78/89)   Writing objects:  88% (79/89)   Writing objects:  89% (80/89)   Writing objects:  91% (81/89)   Writing objects:  92% (82/89)   Writing objects:  93% (83/89)   Writing objects:  94% (84/89)   Writing objects:  95% (85/89)   Writing objects:  96% (86/89)   Writing objects:  97% (87/89)   Writing objects:  98% (88/89)   Writing objects: 100% (89/89)   Writing objects: 100% (89/89), 40.01 KiB, done.
+Total 89 (delta 22), reused 0 (delta 0)
+To https://github.com/phil88530/HouseSearch.git
+   2612046..31749de  HEAD -> master
 bash-3.2$ 

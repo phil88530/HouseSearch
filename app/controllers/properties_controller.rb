@@ -17,6 +17,7 @@ class PropertiesController < ApplicationController
     @property = Property.find(params[:id])
     #find close properties, and reject the first one(it will always be itself, no need to redundant)
     @properties = Property.search_by_rooms(@property).near(@property, 20, :order => :distance)[1..-1]
+    @google_maps = "http://maps.googleapis.com/maps/api/staticmap?center=#{@property.latitude},#{@property.longitude}&markers=color:red%7Clabel:*%7C#{@property.latitude},#{@property.longitude}&zoom=11&size=600x400&sensor=false"
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @property }

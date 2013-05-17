@@ -13,10 +13,13 @@
   %b Longitude:
   = @property.longitude
 
+
+%img{:src=>@google_maps}
+%br
+
 = link_to 'Edit', edit_property_path(@property)
 \|
 = link_to 'Back', properties_path
 
-
-
+%br
 =render "nearby_properties"
