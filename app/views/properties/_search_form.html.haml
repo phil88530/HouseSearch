@@ -1,0 +1,11 @@
+%h1 Saerch Properties by address or postcode
+= form_for @property, :url => search_property_path do |f|
+  .field
+    = f.label "Address/Postcode"
+    = f.text_field :name, :value => 'SE1 9RL'
+  .field
+    = f.label :bedroom
+    = f.number_field :bedroom, :in => 1..10
+
+  .actions
+    = f.submit 'Search'

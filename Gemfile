@@ -29,7 +29,6 @@ end
 gem 'sass-rails'
 gem 'haml-rails'
 gem 'geocoder'
-#
 # gem 'jquery-rails'
 # gem 'prototype-rails'
 

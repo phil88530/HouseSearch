@@ -15,7 +15,8 @@ class PropertiesController < ApplicationController
   # GET /properties/1.json
   def show
     @property = Property.find(params[:id])
-
+    #find close properties, and reject the first one(it will always be itself, no need to redundant)
+    @properties = Property.search_by_rooms(@property).near(@property, 20, :order => :distance)[1..-1]
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @property }
@@ -40,9 +41,13 @@ class PropertiesController < ApplicationController
 
   # POST search method
   def search_property
-    property = Property.new(params[:property])
-    if !(property.name.empty? && property.bedroom.empty?)
-      @properties = Property.find(:all, :conditions => ["bedroom >= ?", property.bedroom], :order => :bedroom)
+    @property = Property.new(params[:property])
+    location = Geocoder.coordinates(@property.name)
+    @property.latitude = location[0]
+    @property.longitude = location[1]
+    if !(@property.name.empty? || @property.bedroom.nil?)
+      #find all the properties got more than the requesst bedrooms(and order them), then order by distance
+      @properties = Property.search_by_rooms(@property).near(@property, 20, :order => :distance)
     else
       redirect_to properties_path, :notice => "Must fill both location/area, and a minimum benroom number !"
     end

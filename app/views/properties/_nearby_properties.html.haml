@@ -1,0 +1,25 @@
+- if @properties.empty?
+  %hr
+  No bearyby properties found
+- else
+  %h1 Nearby properties
+  %table
+    %tr
+      %th Name
+      %th Bedroom
+      %th Distance from search
+      %th Latitude
+      %th Longtitude
+      %th
+      %th
+      %th
+
+    - @properties.each do |property|
+      %tr
+        %td= property.name
+        %td= property.bedroom
+        %th= "#{property.distance_from(@property).round(2)} km"
+        %td= property.latitude
+        %td= property.longitude
+        %td= link_to 'Show', property
+

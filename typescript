@@ -1,0 +1,557 @@
+Script started on Fri May 17 21:44:12 2013
+[?1034hbash-3.2$ ping google.com p[K[K
+bash-3.2$ script plugin  install git://github.com/andre/geokit-rails.git
+Script started, output file is plugin
+usage: install [-bCcpSsv] [-B suffix] [-f flags] [-g group] [-m mode]
+               [-o owner] file1 file2
+       install [-bCcpSsv] [-B suffix] [-f flags] [-g group] [-m mode]
+               [-o owner] file1 ... fileN directory
+       install -d [-v] [-g group] [-m mode] [-o owner] directory ...
+
+Script done, output file is plugin
+bash-3.2$ script plugin  install git://github.com/andre/geokit-rails.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+Script started, output file is plugin
+usage: install [-bCcpSsv] [-B suffix] [-f flags] [-g group] [-m mode]
+               [-o owner] file1 file2
+       install [-bCcpSsv] [-B suffix] [-f flags] [-g group] [-m mode]
+               [-o owner] file1 ... fileN directory
+       install -d [-v] [-g group] [-m mode] [-o owner] directory ...
+
+Script done, output file is plugin
+bash-3.2$ script plugin install git://github.com/andre/geokit-rails.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[1P[1@t[1@/
+bash: script/plugin: No such file or directory
+bash-3.2$ script/plugin install git://github.com/andre/geokit-rails.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Script started, output file is plugin
+usage: install [-bCcpSsv] [-B suffix] [-f flags] [-g group] [-m mode]
+               [-o owner] file1 file2
+       install [-bCcpSsv] [-B suffix] [-f flags] [-g group] [-m mode]
+               [-o owner] file1 ... fileN directory
+       install -d [-v] [-g group] [-m mode] [-o owner] directory ...
+
+Script done, output file is plugin
+bash-3.2$ script plugin install git://github.com/andre/geokit-rails.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1@r[1@a[1@i[1@l[1@s
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/01/04/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /Users/phil88530/Desktop/ruby/HouseSearcher/config/environment.rb:5)
+Initialized empty Git repository in /Users/phil88530/Desktop/ruby/HouseSearcher/vendor/plugins/geokit-rails/.git/
+fatal: remote error: 
+  Repository not found.
+bash-3.2$ rails plugin install git://github.com/andre/geokit-rails.git[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+bash-3.2$ sudo gem install geokit
+Password:
+Sorry, try again.
+Password:
+Successfully installed geokit-1.6.5
+1 gem installed
+Installing ri documentation for geokit-1.6.5...
+Installing RDoc documentation for geokit-1.6.5...
+bash-3.2$ bundle
+Resolving dependencies...
+Using rake (10.0.4) 
+Using i18n (0.6.0) 
+Using multi_json (1.1.0) 
+Using activesupport (3.2.1) 
+Using builder (3.0.0) 
+Using activemodel (3.2.1) 
+Using erubis (2.7.0) 
+Using journey (1.0.3) 
+Using rack (1.4.1) 
+Using rack-cache (1.1) 
+Using rack-test (0.6.1) 
+Using hike (1.2.1) 
+Using tilt (1.3.3) 
+Using sprockets (2.1.2) 
+Using actionpack (3.2.1) 
+Using mime-types (1.17.2) 
+Using polyglot (0.3.3) 
+Using treetop (1.4.10) 
+Using mail (2.4.1) 
+Using actionmailer (3.2.1) 
+Using arel (3.0.2) 
+Using tzinfo (0.3.31) 
+Using activerecord (3.2.1) 
+Using activeresource (3.2.1) 
+Using bundler (1.3.5) 
+Using daemons (1.1.8) 
+Using eventmachine (0.12.10) 
+Using execjs (1.3.0) 
+Using geokit (1.6.5) 
+Using haml (3.1.4) 
+Using rack-ssl (1.3.2) 
+Using json (1.6.5) 
+Using rdoc (3.12) 
+Using thor (0.14.6) 
+Using railties (3.2.1) 
+Using haml-rails (0.3.4) 
+Using pg (0.13.2) 
+Using rails (3.2.1) 
+Using sass (3.1.15) 
+Using sass-rails (3.2.4) 
+Using sqlite3 (1.3.5) 
+Using thin (1.3.1) 
+Using uglifier (1.2.3) 
+[32mYour bundle is complete![0m
+[32mUse `bundle show [gemname]` to see where a bundled gem is installed.[0m
+bash-3.2$ bundlesudo gem install geokit[C[C[C[C[C[C[C[C[C[Crails plugin install git://github.com/andre/geokit-rails.git[C[C[C[C[C[C[C[C[C[C[1@script[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@r[1@u[1@b[1@y[1@ [C[C[C[C[C[C[C[1P[1@/
+ruby: No such file or directory -- script/plugin (LoadError)
+bash-3.2$ >ruby script/plugin install svn://rubyforge.org/var/svn/
+bash: script/plugin: No such file or directory
+bash-3.2$    geokit/trunk
+bash: geokit/trunk: No such file or directory
+bash-3.2$    geokit/trunk>ruby script/plugin install svn://rubyforge.org/var/svn/
+bash: geokit/trunk: No such file or directory
+bash-3.2$    geokit/trunk
+bash-3.2$ 
+bash-3.2$ >ruby script/plugin install svn://rubyforge.org/var/svn/
+bash: script/plugin: No such file or directory
+bash-3.2$    geokit/trunk
+bash-3.2$ ruby script/plugin install svn://rubyforge.org/var/svn/
+ruby: No such file or directory -- script/plugin (LoadError)
+bash-3.2$    geokit/trunk
+bash: geokit/trunk: No such file or directory
+bash-3.2$ 
+bash-3.2$ bundle
+Resolving dependencies...
+Using rake (10.0.4) 
+Using i18n (0.6.0) 
+Using multi_json (1.1.0) 
+Using activesupport (3.2.1) 
+Using builder (3.0.0) 
+Using activemodel (3.2.1) 
+Using erubis (2.7.0) 
+Using journey (1.0.3) 
+Using rack (1.4.1) 
+Using rack-cache (1.1) 
+Using rack-test (0.6.1) 
+Using hike (1.2.1) 
+Using tilt (1.3.3) 
+Using sprockets (2.1.2) 
+Using actionpack (3.2.1) 
+Using mime-types (1.17.2) 
+Using polyglot (0.3.3) 
+Using treetop (1.4.10) 
+Using mail (2.4.1) 
+Using actionmailer (3.2.1) 
+Using arel (3.0.2) 
+Using tzinfo (0.3.31) 
+Using activerecord (3.2.1) 
+Using activeresource (3.2.1) 
+Using bundler (1.3.5) 
+Using daemons (1.1.8) 
+Using eventmachine (0.12.10) 
+Using execjs (1.3.0) 
+Using geocoder (1.1.8) 
+Using haml (3.1.4) 
+Using rack-ssl (1.3.2) 
+Using json (1.6.5) 
+Using rdoc (3.12) 
+Using thor (0.14.6) 
+Using railties (3.2.1) 
+Using haml-rails (0.3.4) 
+Using pg (0.13.2) 
+Using rails (3.2.1) 
+Using sass (3.1.15) 
+Using sass-rails (3.2.4) 
+Using sqlite3 (1.3.5) 
+Using thin (1.3.1) 
+Using uglifier (1.2.3) 
+[32mYour bundle is complete![0m
+[32mUse `bundle show [gemname]` to see where a bundled gem is installed.[0m
+bash-3.2$ i[Krails c
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/01/04/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /Users/phil88530/Desktop/ruby/HouseSearcher/config/environment.rb:5)
+Loading development environment (Rails 3.2.1)
+1.9.3-p194 :001 > Geocoder.search("1 Twins Way, Minneapolis")
+ => [#<Geocoder::Result::Google:0x007fb632b47c70 @data={"address_components"=>[{"long_name"=>"Twins Way", "short_name"=>"Twins Way", "types"=>["route"]}, {"long_name"=>"North Loop", "short_name"=>"North Loop", "types"=>["neighborhood", "political"]}, {"long_name"=>"Minneapolis", "short_name"=>"Minneapolis", "types"=>["locality", "political"]}, {"long_name"=>"Hennepin", "short_name"=>"Hennepin", "types"=>["administrative_area_level_2", "political"]}, {"long_name"=>"Minnesota", "short_name"=>"MN", "types"=>["administrative_area_level_1", "political"]}, {"long_name"=>"United States", "short_name"=>"US", "types"=>["country", "political"]}, {"long_name"=>"55403", "short_name"=>"55403", "types"=>["postal_code"]}], "formatted_address"=>"Twins Way, Minneapolis, MN 55403, USA", "geometry"=>{"bounds"=>{"northeast"=>{"lat"=>44.9807362, "lng"=>-93.2785451}, "southwest"=>{"lat"=>44.9775833, "lng"=>-93.2815351}}, "location"=>{"lat"=>44.9793305, "lng"=>-93.2805701}, "location_type"=>"GEOMETRIC_CENTER", "viewport"=>{"northeast"=>{"lat"=>44.9807362, "lng"=>-93.2785451}, "southwest"=>{"lat"=>44.9775833, "lng"=>-93.2815351}}}, "partial_match"=>true, "postcode_localities"=>[], "types"=>["route"]}, @cache_hit=nil>] 
+1.9.3-p194 :002 > Property
+ => Property(id: integer, name: string, bedroom: integer, latitude: float, longitude: float, created_at: datetime, updated_at: datetime) 
+1.9.3-p194 :003 > rake db:drop
+NameError: undefined local variable or method `drop' for main:Object
+	from (irb):3
+	from /Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.1/lib/rails/commands/console.rb:47:in `start'
+	from /Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.1/lib/rails/commands/console.rb:8:in `start'
+	from /Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.1/lib/rails/commands.rb:41:in `<top (required)>'
+	from script/rails:6:in `require'
+	from script/rails:6:in `<main>'
+1.9.3-p194 :004 > ^D
+bash-3.2$ rake db:drop
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/01/04/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /Users/phil88530/Desktop/ruby/HouseSearcher/Rakefile:7)
+Couldn't drop db/test.sqlite3 : #<Errno::ENOENT: No such file or directory - /Users/phil88530/Desktop/ruby/HouseSearcher/db/test.sqlite3>
+bash-3.2$ rake db:migrate
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/01/04/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /Users/phil88530/Desktop/ruby/HouseSearcher/Rakefile:7)
+==  CreateProperties: migrating ===============================================
+-- create_table(:properties)
+   -> 0.0015s
+==  CreateProperties: migrated (0.0016s) ======================================
+
+bash-3.2$ rake db:seed
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/01/04/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /Users/phil88530/Desktop/ruby/HouseSearcher/Rakefile:7)
+rake aborted!
+Can't mass-assign protected attributes: longitude
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/activemodel-3.2.1/lib/active_model/mass_assignment_security/sanitizer.rb:48:in `process_removed_attributes'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/activemodel-3.2.1/lib/active_model/mass_assignment_security/sanitizer.rb:20:in `debug_protected_attribute_removal'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/activemodel-3.2.1/lib/active_model/mass_assignment_security/sanitizer.rb:12:in `sanitize'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/activemodel-3.2.1/lib/active_model/mass_assignment_security.rb:228:in `sanitize_for_mass_assignment'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.1/lib/active_record/attribute_assignment.rb:75:in `assign_attributes'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.1/lib/active_record/base.rb:495:in `initialize'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.1/lib/active_record/persistence.rb:44:in `new'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.1/lib/active_record/persistence.rb:44:in `create'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.1/lib/active_record/persistence.rb:42:in `block in create'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.1/lib/active_record/persistence.rb:42:in `collect'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.1/lib/active_record/persistence.rb:42:in `create'
+/Users/phil88530/Desktop/ruby/HouseSearcher/db/seeds.rb:9:in `<top (required)>'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.1/lib/active_support/dependencies.rb:245:in `load'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.1/lib/active_support/dependencies.rb:245:in `block in load'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.1/lib/active_support/dependencies.rb:236:in `load_dependency'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.1/lib/active_support/dependencies.rb:245:in `load'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.1/lib/rails/engine.rb:520:in `load_seed'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.1/lib/active_record/railties/databases.rake:306:in `block (2 levels) in <top (required)>'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/rake-10.0.4/lib/rake/task.rb:246:in `call'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/rake-10.0.4/lib/rake/task.rb:246:in `block in execute'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/rake-10.0.4/lib/rake/task.rb:241:in `each'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/rake-10.0.4/lib/rake/task.rb:241:in `execute'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/rake-10.0.4/lib/rake/task.rb:184:in `block in invoke_with_call_chain'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/rake-10.0.4/lib/rake/task.rb:177:in `invoke_with_call_chain'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/rake-10.0.4/lib/rake/task.rb:170:in `invoke'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/rake-10.0.4/lib/rake/application.rb:143:in `invoke_task'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/rake-10.0.4/lib/rake/application.rb:101:in `block (2 levels) in top_level'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/rake-10.0.4/lib/rake/application.rb:101:in `each'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/rake-10.0.4/lib/rake/application.rb:101:in `block in top_level'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/rake-10.0.4/lib/rake/application.rb:110:in `run_with_threads'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/rake-10.0.4/lib/rake/application.rb:95:in `top_level'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/rake-10.0.4/lib/rake/application.rb:73:in `block in run'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/rake-10.0.4/lib/rake/application.rb:160:in `standard_exception_handling'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/rake-10.0.4/lib/rake/application.rb:70:in `run'
+Tasks: TOP => db:seed
+(See full trace by running task with --trace)
+bash-3.2$ ac [Kk longitude
+[1;32mapp/models/property.rb[0m
+[1;33m7[0m:     :[30;43mlongitude[0m => :longtitude[0m[K
+
+[1;32mdb/seeds.rb[0m
+[1;33m13[0m:  :[30;43mlongitude[0m => -0.142000},[0m[K
+[1;33m19[0m:  :[30;43mlongitude[0m => -0.205500},[0m[K
+[1;33m25[0m:  :[30;43mlongitude[0m => -0.086667},[0m[K
+[1;33m31[0m:  :[30;43mlongitude[0m => -0.013333},[0m[K
+[1;33m37[0m:  :[30;43mlongitude[0m => -5.746944}[0m[K
+
+[1;32mtest/fixtures/properties.yml[0m
+[1;33m7[0m:  [30;43mlongitude[0m: 1.5[0m[K
+[1;33m13[0m:  [30;43mlongitude[0m: 1.5[0m[K
+
+[1;32mvendor/plugins/geokit-rails3/lib/geokit-rails3/acts_as_mappable.old.rb[0m
+[1;33m10[0m:  #   1. a two-element array of latititude/[30;43mlongitude[0m -- :origin=>[37.792,-122.393][0m[K
+[1;33m12[0m:  #   3. an object which responds to lat and lng methods, or latitude and [30;43mlongitude[0m methods,[0m[K
+[1;33m309[0m:      # it.  If there is no origin, looks for latitude and [30;43mlongitude[0m values to [0m[K
+[1;33m391[0m:        lng_degree_units = units_per_[30;43mlongitude[0m_degree(origin.lat, units)[0m[K
+
+[1;32mvendor/plugins/geokit-rails3/lib/geokit-rails3/acts_as_mappable.rb[0m
+[1;33m192[0m:      # it.  If there is no origin, looks for latitude and [30;43mlongitude[0m values to[0m[K
+[1;33m272[0m:        lng_degree_units = units_per_[30;43mlongitude[0m_degree(origin.lat, units)[0m[K
+
+[1;32mvendor/plugins/geokit-rails3/test/fixtures/custom_locations.yml[0m
+[1;33m9[0m:  [30;43mlongitude[0m: -96.958444[0m[K
+[1;33m18[0m:  [30;43mlongitude[0m: -96.958444[0m[K
+[1;33m27[0m:  [30;43mlongitude[0m: -96.958444[0m[K
+[1;33m36[0m:  [30;43mlongitude[0m: -96.958444[0m[K
+[1;33m45[0m:  [30;43mlongitude[0m: -96.990159[0m[K
+[1;33m54[0m:  [30;43mlongitude[0m: -96.958444[0m[K
+
+[1;32mvendor/plugins/geokit-rails3/test/models/custom_location.rb[0m
+[1;33m7[0m:                   :lng_column_name => '[30;43mlongitude[0m'[0m[K
+[1;33m10[0m:    "lat: #{latitude} lng: #{[30;43mlongitude[0m} dist: #{dist}"[0m[K
+
+[1;32mvendor/plugins/geokit-rails3/test/schema.rb[0m
+[1;33m23[0m:    t.column :[30;43mlongitude[0m,   :decimal, :precision => 15, :scale => 10[0m[K
+bash-3.2$ bundle
+Using rake (10.0.4) 
+Using i18n (0.6.0) 
+Using multi_json (1.1.0) 
+Using activesupport (3.2.1) 
+Using builder (3.0.0) 
+Using activemodel (3.2.1) 
+Using erubis (2.7.0) 
+Using journey (1.0.3) 
+Using rack (1.4.1) 
+Using rack-cache (1.1) 
+Using rack-test (0.6.1) 
+Using hike (1.2.1) 
+Using tilt (1.3.3) 
+Using sprockets (2.1.2) 
+Using actionpack (3.2.1) 
+Using mime-types (1.17.2) 
+Using polyglot (0.3.3) 
+Using treetop (1.4.10) 
+Using mail (2.4.1) 
+Using actionmailer (3.2.1) 
+Using arel (3.0.2) 
+Using tzinfo (0.3.31) 
+Using activerecord (3.2.1) 
+Using activeresource (3.2.1) 
+Using daemons (1.1.8) 
+Using eventmachine (0.12.10) 
+Using execjs (1.3.0) 
+Using geocoder (1.1.8) 
+Using haml (3.1.4) 
+Using rack-ssl (1.3.2) 
+Using json (1.6.5) 
+Using rdoc (3.12) 
+Using thor (0.14.6) 
+Using railties (3.2.1) 
+Using haml-rails (0.3.4) 
+Using pg (0.13.2) 
+Using bundler (1.3.5) 
+Using rails (3.2.1) 
+Using sass (3.1.15) 
+Using sass-rails (3.2.4) 
+Using sqlite3 (1.3.5) 
+Using thin (1.3.1) 
+Using uglifier (1.2.3) 
+[32mYour bundle is complete![0m
+[32mUse `bundle show [gemname]` to see where a bundled gem is installed.[0m
+bash-3.2$ rails c
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/01/04/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /Users/phil88530/Desktop/ruby/HouseSearcher/config/environment.rb:5)
+Loading development environment (Rails 3.2.1)
+1.9.3-p194 :001 > Geocoder::Calculations.geographic_center()[)])5])1]).])5])2])3])7])7])8]),])-])0]).])2])0])5])5])0])0])
+ => [NaN, NaN] 
+1.9.3-p194 :002 > Geocoder::Calculations.geographic_center([51.523778,-0.205500])^C
+1.9.3-p194 :002 > Geocoder.search())[K51.523778,-0.205500_[K)
+NoMethodError: undefined method `[]' for -0.2055:Float
+	from /Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/geocoder-1.1.8/lib/geocoder/query.rb:100:in `params_given?'
+	from /Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/geocoder-1.1.8/lib/geocoder/query.rb:49:in `blank?'
+	from /Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/geocoder-1.1.8/lib/geocoder.rb:20:in `search'
+	from (irb):2
+	from /Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.1/lib/rails/commands/console.rb:47:in `start'
+	from /Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.1/lib/rails/commands/console.rb:8:in `start'
+	from /Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.1/lib/rails/commands.rb:41:in `<top (required)>'
+	from script/rails:6:in `require'
+	from script/rails:6:in `<main>'
+1.9.3-p194 :003 > Properti[Ky.first
+  [1m[36mProperty Load (0.2ms)[0m  [1mSELECT "properties".* FROM "properties" LIMIT 1[0m
+ => nil 
+1.9.3-p194 :004 > Property.first
+  [1m[35mProperty Load (0.2ms)[0m  SELECT "properties".* FROM "properties" LIMIT 1
+ => nil 
+1.9.3-p194 :005 > ^D
+bash-3.2$ rake db:seed
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/01/04/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /Users/phil88530/Desktop/ruby/HouseSearcher/Rakefile:7)
+rake aborted!
+Can't mass-assign protected attributes: longitude
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/activemodel-3.2.1/lib/active_model/mass_assignment_security/sanitizer.rb:48:in `process_removed_attributes'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/activemodel-3.2.1/lib/active_model/mass_assignment_security/sanitizer.rb:20:in `debug_protected_attribute_removal'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/activemodel-3.2.1/lib/active_model/mass_assignment_security/sanitizer.rb:12:in `sanitize'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/activemodel-3.2.1/lib/active_model/mass_assignment_security.rb:228:in `sanitize_for_mass_assignment'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.1/lib/active_record/attribute_assignment.rb:75:in `assign_attributes'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.1/lib/active_record/base.rb:495:in `initialize'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.1/lib/active_record/persistence.rb:44:in `new'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.1/lib/active_record/persistence.rb:44:in `create'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.1/lib/active_record/persistence.rb:42:in `block in create'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.1/lib/active_record/persistence.rb:42:in `collect'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.1/lib/active_record/persistence.rb:42:in `create'
+/Users/phil88530/Desktop/ruby/HouseSearcher/db/seeds.rb:9:in `<top (required)>'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.1/lib/active_support/dependencies.rb:245:in `load'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.1/lib/active_support/dependencies.rb:245:in `block in load'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.1/lib/active_support/dependencies.rb:236:in `load_dependency'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.1/lib/active_support/dependencies.rb:245:in `load'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.1/lib/rails/engine.rb:520:in `load_seed'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.1/lib/active_record/railties/databases.rake:306:in `block (2 levels) in <top (required)>'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/rake-10.0.4/lib/rake/task.rb:246:in `call'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/rake-10.0.4/lib/rake/task.rb:246:in `block in execute'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/rake-10.0.4/lib/rake/task.rb:241:in `each'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/rake-10.0.4/lib/rake/task.rb:241:in `execute'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/rake-10.0.4/lib/rake/task.rb:184:in `block in invoke_with_call_chain'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/rake-10.0.4/lib/rake/task.rb:177:in `invoke_with_call_chain'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/rake-10.0.4/lib/rake/task.rb:170:in `invoke'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/rake-10.0.4/lib/rake/application.rb:143:in `invoke_task'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/rake-10.0.4/lib/rake/application.rb:101:in `block (2 levels) in top_level'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/rake-10.0.4/lib/rake/application.rb:101:in `each'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/rake-10.0.4/lib/rake/application.rb:101:in `block in top_level'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/rake-10.0.4/lib/rake/application.rb:110:in `run_with_threads'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/rake-10.0.4/lib/rake/application.rb:95:in `top_level'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/rake-10.0.4/lib/rake/application.rb:73:in `block in run'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/rake-10.0.4/lib/rake/application.rb:160:in `standard_exception_handling'
+/Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/rake-10.0.4/lib/rake/application.rb:70:in `run'
+Tasks: TOP => db:seed
+(See full trace by running task with --trace)
+bash-3.2$ rake db:seed
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/01/04/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /Users/phil88530/Desktop/ruby/HouseSearcher/Rakefile:7)
+bash-3.2$ rails c
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/01/04/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /Users/phil88530/Desktop/ruby/HouseSearcher/config/environment.rb:5)
+^[[ALoading development environment (Rails 3.2.1)
+1.9.3-p194 :001 > Property.first[19GGeocoder.search(51.523778,-0.205500)[19GProperty.first[K[19GGeocoder.search(51.523778,-0.205500)
+NoMethodError: undefined method `[]' for -0.2055:Float
+	from /Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/geocoder-1.1.8/lib/geocoder/query.rb:100:in `params_given?'
+	from /Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/geocoder-1.1.8/lib/geocoder/query.rb:49:in `blank?'
+	from /Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/geocoder-1.1.8/lib/geocoder.rb:20:in `search'
+	from (irb):1
+	from /Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.1/lib/rails/commands/console.rb:47:in `start'
+	from /Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.1/lib/rails/commands/console.rb:8:in `start'
+	from /Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.1/lib/rails/commands.rb:41:in `<top (required)>'
+	from script/rails:6:in `require'
+	from script/rails:6:in `<main>'
+1.9.3-p194 :002 > Geocoder.search(51.523778,-0.205500)[19GProperty.first[K
+  [1m[36mProperty Load (0.8ms)[0m  [1mSELECT "properties".* FROM "properties" LIMIT 1[0m
+ => #<Property id: 1, name: "Sizeable house", bedroom: 2, latitude: 51.501, longtitude: -0.142, created_at: "2013-05-17 21:26:45", updated_at: "2013-05-17 21:26:45"> 
+1.9.3-p194 :003 > Property.first.near(10)
+  [1m[35mProperty Load (0.4ms)[0m  SELECT "properties".* FROM "properties" LIMIT 1
+NoMethodError: undefined method `near' for #<Property:0x007fb6edb22b08>
+	from /Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/activemodel-3.2.1/lib/active_model/attribute_methods.rb:407:in `method_missing'
+	from /Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.1/lib/active_record/attribute_methods.rb:126:in `method_missing'
+	from (irb):3
+	from /Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.1/lib/rails/commands/console.rb:47:in `start'
+	from /Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.1/lib/rails/commands/console.rb:8:in `start'
+	from /Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.1/lib/rails/commands.rb:41:in `<top (required)>'
+	from script/rails:6:in `require'
+	from script/rails:6:in `<main>'
+1.9.3-p194 :004 > Property.first.near(10)[K[K[K[K[K[K[K[K[K.location
+  [1m[36mProperty Load (0.2ms)[0m  [1mSELECT "properties".* FROM "properties" LIMIT 1[0m
+NoMethodError: undefined method `location' for #<Property:0x007fb6edb29980>
+	from /Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/activemodel-3.2.1/lib/active_model/attribute_methods.rb:407:in `method_missing'
+	from /Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.1/lib/active_record/attribute_methods.rb:126:in `method_missing'
+	from (irb):4
+	from /Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.1/lib/rails/commands/console.rb:47:in `start'
+	from /Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.1/lib/rails/commands/console.rb:8:in `start'
+	from /Users/phil88530/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.1/lib/rails/commands.rb:41:in `<top (required)>'
+	from script/rails:6:in `require'
+	from script/rails:6:in `<main>'
+1.9.3-p194 :005 > Property.first.location[34Gnear(10)b(10)y(10)s(10)
+  [1m[35mProperty Load (0.3ms)[0m  SELECT "properties".* FROM "properties" LIMIT 1
+  [1m[36mProperty Load (0.4ms)[0m  [1mSELECT properties.*, (69.09332411348201 * ABS(properties.latitude - 51.501) * 0.7071067811865475) + (59.836573914187355 * ABS(properties.longtitude - -0.142) * 0.7071067811865475) AS distance, CASE WHEN (properties.latitude >= 51.501 AND properties.longtitude >= -0.142) THEN 45.0 WHEN (properties.latitude < 51.501 AND properties.longtitude >= -0.142) THEN 135.0 WHEN (properties.latitude < 51.501 AND properties.longtitude < -0.142) THEN 225.0 WHEN (properties.latitude >= 51.501 AND properties.longtitude < -0.142) THEN 315.0 END AS bearing FROM "properties" WHERE (properties.latitude BETWEEN 51.35626821688915 AND 51.64573178311085 AND properties.longtitude BETWEEN -0.37450049132912244 AND 0.0905004913291225 AND properties.id != 1) ORDER BY distance ASC[0m
+ => [#<Property id: 3, name: "Flat with stunning view", bedroom: 2, latitude: 51.504444, longtitude: -0.086667, created_at: "2013-05-17 21:26:45", updated_at: "2013-05-17 21:26:45">, #<Property id: 2, name: "Trendy flat", bedroom: 2, latitude: 51.523778, longtitude: -0.2055, created_at: "2013-05-17 21:26:45", updated_at: "2013-05-17 21:26:45">, #<Property id: 4, name: "Unique flat", bedroom: 1, latitude: 51.538333, longtitude: -0.013333, created_at: "2013-05-17 21:26:45", updated_at: "2013-05-17 21:26:45">] 
+1.9.3-p194 :006 > Property.first.nearbys(10)
+  [1m[35mProperty Load (0.3ms)[0m  SELECT "properties".* FROM "properties" LIMIT 1
+  [1m[36mProperty Load (0.5ms)[0m  [1mSELECT properties.*, (69.09332411348201 * ABS(properties.latitude - 51.501) * 0.7071067811865475) + (59.836573914187355 * ABS(properties.longtitude - -0.142) * 0.7071067811865475) AS distance, CASE WHEN (properties.latitude >= 51.501 AND properties.longtitude >= -0.142) THEN 45.0 WHEN (properties.latitude < 51.501 AND properties.longtitude >= -0.142) THEN 135.0 WHEN (properties.latitude < 51.501 AND properties.longtitude < -0.142) THEN 225.0 WHEN (properties.latitude >= 51.501 AND properties.longtitude < -0.142) THEN 315.0 END AS bearing FROM "properties" WHERE (properties.latitude BETWEEN 51.35626821688915 AND 51.64573178311085 AND properties.longtitude BETWEEN -0.37450049132912244 AND 0.0905004913291225 AND properties.id != 1) ORDER BY distance ASC[0m
+ => [#<Property id: 3, name: "Flat with stunning view", bedroom: 2, latitude: 51.504444, longtitude: -0.086667, created_at: "2013-05-17 21:26:45", updated_at: "2013-05-17 21:26:45">, #<Property id: 2, name: "Trendy flat", bedroom: 2, latitude: 51.523778, longtitude: -0.2055, created_at: "2013-05-17 21:26:45", updated_at: "2013-05-17 21:26:45">, #<Property id: 4, name: "Unique flat", bedroom: 1, latitude: 51.538333, longtitude: -0.013333, created_at: "2013-05-17 21:26:45", updated_at: "2013-05-17 21:26:45">] 
+1.9.3-p194 :007 > Property.first.nearbys(10)
+  [1m[35mProperty Load (0.3ms)[0m  SELECT "properties".* FROM "properties" LIMIT 1
+  [1m[36mProperty Load (0.4ms)[0m  [1mSELECT properties.*, (69.09332411348201 * ABS(properties.latitude - 51.501) * 0.7071067811865475) + (59.836573914187355 * ABS(properties.longtitude - -0.142) * 0.7071067811865475) AS distance, CASE WHEN (properties.latitude >= 51.501 AND properties.longtitude >= -0.142) THEN 45.0 WHEN (properties.latitude < 51.501 AND properties.longtitude >= -0.142) THEN 135.0 WHEN (properties.latitude < 51.501 AND properties.longtitude < -0.142) THEN 225.0 WHEN (properties.latitude >= 51.501 AND properties.longtitude < -0.142) THEN 315.0 END AS bearing FROM "properties" WHERE (properties.latitude BETWEEN 51.35626821688915 AND 51.64573178311085 AND properties.longtitude BETWEEN -0.37450049132912244 AND 0.0905004913291225 AND properties.id != 1) ORDER BY distance ASC[0m
+ => [#<Property id: 3, name: "Flat with stunning view", bedroom: 2, latitude: 51.504444, longtitude: -0.086667, created_at: "2013-05-17 21:26:45", updated_at: "2013-05-17 21:26:45">, #<Property id: 2, name: "Trendy flat", bedroom: 2, latitude: 51.523778, longtitude: -0.2055, created_at: "2013-05-17 21:26:45", updated_at: "2013-05-17 21:26:45">, #<Property id: 4, name: "Unique flat", bedroom: 1, latitude: 51.538333, longtitude: -0.013333, created_at: "2013-05-17 21:26:45", updated_at: "2013-05-17 21:26:45">] 
+1.9.3-p194 :008 > Property.first.nearbys(10)0)0)
+  [1m[35mProperty Load (0.3ms)[0m  SELECT "properties".* FROM "properties" LIMIT 1
+  [1m[36mProperty Load (0.5ms)[0m  [1mSELECT properties.*, (69.09332411348201 * ABS(properties.latitude - 51.501) * 0.7071067811865475) + (59.836573914187355 * ABS(properties.longtitude - -0.142) * 0.7071067811865475) AS distance, CASE WHEN (properties.latitude >= 51.501 AND properties.longtitude >= -0.142) THEN 45.0 WHEN (properties.latitude < 51.501 AND properties.longtitude >= -0.142) THEN 135.0 WHEN (properties.latitude < 51.501 AND properties.longtitude < -0.142) THEN 225.0 WHEN (properties.latitude >= 51.501 AND properties.longtitude < -0.142) THEN 315.0 END AS bearing FROM "properties" WHERE (properties.latitude BETWEEN 37.0278216889152 AND 65.9741783110848 AND properties.longtitude BETWEEN -23.39204913291225 AND 23.10804913291225 AND properties.id != 1) ORDER BY distance ASC[0m
+ => [#<Property id: 3, name: "Flat with stunning view", bedroom: 2, latitude: 51.504444, longtitude: -0.086667, created_at: "2013-05-17 21:26:45", updated_at: "2013-05-17 21:26:45">, #<Property id: 2, name: "Trendy flat", bedroom: 2, latitude: 51.523778, longtitude: -0.2055, created_at: "2013-05-17 21:26:45", updated_at: "2013-05-17 21:26:45">, #<Property id: 4, name: "Unique flat", bedroom: 1, latitude: 51.538333, longtitude: -0.013333, created_at: "2013-05-17 21:26:45", updated_at: "2013-05-17 21:26:45">, #<Property id: 5, name: "Isolated house", bedroom: 1, latitude: 50.066944, longtitude: -5.746944, created_at: "2013-05-17 21:26:45", updated_at: "2013-05-17 21:26:45">] 
+1.9.3-p194 :009 > Property.first.nearbys(1000)-)-)-))[K)[K)[K0)0)0)
+  [1m[35mProperty Load (0.2ms)[0m  SELECT "properties".* FROM "properties" LIMIT 1
+  [1m[36mProperty Load (0.5ms)[0m  [1mSELECT properties.*, (69.09332411348201 * ABS(properties.latitude - 51.501) * 0.7071067811865475) + (59.836573914187355 * ABS(properties.longtitude - -0.142) * 0.7071067811865475) AS distance, CASE WHEN (properties.latitude >= 51.501 AND properties.longtitude >= -0.142) THEN 45.0 WHEN (properties.latitude < 51.501 AND properties.longtitude >= -0.142) THEN 135.0 WHEN (properties.latitude < 51.501 AND properties.longtitude < -0.142) THEN 225.0 WHEN (properties.latitude >= 51.501 AND properties.longtitude < -0.142) THEN 315.0 END AS bearing FROM "properties" WHERE (properties.latitude BETWEEN -14421.677311084795 AND 14524.679311084796 AND properties.longtitude BETWEEN -23250.19113291225 AND 23249.90713291225 AND properties.id != 1) ORDER BY distance ASC[0m
+ => [#<Property id: 3, name: "Flat with stunning view", bedroom: 2, latitude: 51.504444, longtitude: -0.086667, created_at: "2013-05-17 21:26:45", updated_at: "2013-05-17 21:26:45">, #<Property id: 2, name: "Trendy flat", bedroom: 2, latitude: 51.523778, longtitude: -0.2055, created_at: "2013-05-17 21:26:45", updated_at: "2013-05-17 21:26:45">, #<Property id: 4, name: "Unique flat", bedroom: 1, latitude: 51.538333, longtitude: -0.013333, created_at: "2013-05-17 21:26:45", updated_at: "2013-05-17 21:26:45">, #<Property id: 5, name: "Isolated house", bedroom: 1, latitude: 50.066944, longtitude: -5.746944, created_at: "2013-05-17 21:26:45", updated_at: "2013-05-17 21:26:45">] 
+1.9.3-p194 :010 > Property.first.nearbys(1000000)-)-))[K)[K0)0)
+  [1m[35mProperty Load (0.2ms)[0m  SELECT "properties".* FROM "properties" LIMIT 1
+  [1m[36mProperty Load (0.5ms)[0m  [1mSELECT properties.*, (69.09332411348201 * ABS(properties.latitude - 51.501) * 0.7071067811865475) + (59.836573914187355 * ABS(properties.longtitude - -0.142) * 0.7071067811865475) AS distance, CASE WHEN (properties.latitude >= 51.501 AND properties.longtitude >= -0.142) THEN 45.0 WHEN (properties.latitude < 51.501 AND properties.longtitude >= -0.142) THEN 135.0 WHEN (properties.latitude < 51.501 AND properties.longtitude < -0.142) THEN 225.0 WHEN (properties.latitude >= 51.501 AND properties.longtitude < -0.142) THEN 315.0 END AS bearing FROM "properties" WHERE (properties.latitude BETWEEN -1447266.3301084796 AND 1447369.3321084795 AND properties.longtitude BETWEEN -2325005.0552912247 AND 2325004.7712912248 AND properties.id != 1) ORDER BY distance ASC[0m
+ => [#<Property id: 3, name: "Flat with stunning view", bedroom: 2, latitude: 51.504444, longtitude: -0.086667, created_at: "2013-05-17 21:26:45", updated_at: "2013-05-17 21:26:45">, #<Property id: 2, name: "Trendy flat", bedroom: 2, latitude: 51.523778, longtitude: -0.2055, created_at: "2013-05-17 21:26:45", updated_at: "2013-05-17 21:26:45">, #<Property id: 4, name: "Unique flat", bedroom: 1, latitude: 51.538333, longtitude: -0.013333, created_at: "2013-05-17 21:26:45", updated_at: "2013-05-17 21:26:45">, #<Property id: 5, name: "Isolated house", bedroom: 1, latitude: 50.066944, longtitude: -5.746944, created_at: "2013-05-17 21:26:45", updated_at: "2013-05-17 21:26:45">] 
+1.9.3-p194 :011 > Property.first.nearbys(100000000))[K)[K)[K
+  [1m[35mProperty Load (0.3ms)[0m  SELECT "properties".* FROM "properties" LIMIT 1
+  [1m[36mProperty Load (0.5ms)[0m  [1mSELECT properties.*, (69.09332411348201 * ABS(properties.latitude - 51.501) * 0.7071067811865475) + (59.836573914187355 * ABS(properties.longtitude - -0.142) * 0.7071067811865475) AS distance, CASE WHEN (properties.latitude >= 51.501 AND properties.longtitude >= -0.142) THEN 45.0 WHEN (properties.latitude < 51.501 AND properties.longtitude >= -0.142) THEN 135.0 WHEN (properties.latitude < 51.501 AND properties.longtitude < -0.142) THEN 225.0 WHEN (properties.latitude >= 51.501 AND properties.longtitude < -0.142) THEN 315.0 END AS bearing FROM "properties" WHERE (properties.latitude BETWEEN 51.35626821688915 AND 51.64573178311085 AND properties.longtitude BETWEEN -0.37450049132912244 AND 0.0905004913291225 AND properties.id != 1) ORDER BY distance ASC[0m
+ => [#<Property id: 3, name: "Flat with stunning view", bedroom: 2, latitude: 51.504444, longtitude: -0.086667, created_at: "2013-05-17 21:26:45", updated_at: "2013-05-17 21:26:45">, #<Property id: 2, name: "Trendy flat", bedroom: 2, latitude: 51.523778, longtitude: -0.2055, created_at: "2013-05-17 21:26:45", updated_at: "2013-05-17 21:26:45">, #<Property id: 4, name: "Unique flat", bedroom: 1, latitude: 51.538333, longtitude: -0.013333, created_at: "2013-05-17 21:26:45", updated_at: "2013-05-17 21:26:45">] 
+1.9.3-p194 :012 > ^D
+bash-3.2$ ack g[Klongitude
+[1;32mapp/models/property.rb[0m
+[1;33m7[0m:     :[30;43mlongitude[0m => :longtitude[0m[K
+
+[1;32mtest/fixtures/properties.yml[0m
+[1;33m7[0m:  [30;43mlongitude[0m: 1.5[0m[K
+[1;33m13[0m:  [30;43mlongitude[0m: 1.5[0m[K
+
+[1;32mvendor/plugins/geokit-rails3/lib/geokit-rails3/acts_as_mappable.old.rb[0m
+[1;33m10[0m:  #   1. a two-element array of latititude/[30;43mlongitude[0m -- :origin=>[37.792,-122.393][0m[K
+[1;33m12[0m:  #   3. an object which responds to lat and lng methods, or latitude and [30;43mlongitude[0m methods,[0m[K
+[1;33m309[0m:      # it.  If there is no origin, looks for latitude and [30;43mlongitude[0m values to [0m[K
+[1;33m391[0m:        lng_degree_units = units_per_[30;43mlongitude[0m_degree(origin.lat, units)[0m[K
+
+[1;32mvendor/plugins/geokit-rails3/lib/geokit-rails3/acts_as_mappable.rb[0m
+[1;33m192[0m:      # it.  If there is no origin, looks for latitude and [30;43mlongitude[0m values to[0m[K
+[1;33m272[0m:        lng_degree_units = units_per_[30;43mlongitude[0m_degree(origin.lat, units)[0m[K
+
+[1;32mvendor/plugins/geokit-rails3/test/fixtures/custom_locations.yml[0m
+[1;33m9[0m:  [30;43mlongitude[0m: -96.958444[0m[K
+[1;33m18[0m:  [30;43mlongitude[0m: -96.958444[0m[K
+[1;33m27[0m:  [30;43mlongitude[0m: -96.958444[0m[K
+[1;33m36[0m:  [30;43mlongitude[0m: -96.958444[0m[K
+[1;33m45[0m:  [30;43mlongitude[0m: -96.990159[0m[K
+[1;33m54[0m:  [30;43mlongitude[0m: -96.958444[0m[K
+
+[1;32mvendor/plugins/geokit-rails3/test/models/custom_location.rb[0m
+[1;33m7[0m:                   :lng_column_name => '[30;43mlongitude[0m'[0m[K
+[1;33m10[0m:    "lat: #{latitude} lng: #{[30;43mlongitude[0m} dist: #{dist}"[0m[K
+
+[1;32mvendor/plugins/geokit-rails3/test/schema.rb[0m
+[1;33m23[0m:    t.column :[30;43mlongitude[0m,   :decimal, :precision => 15, :scale => 10[0m[K
+bash-3.2$ ack longtitude
+[1;32mdb/migrate/20130516211428_create_properties.rb[0m
+[1;33m7[0m:      t.float :[30;43mlongtitude[0m[0m[K
+
+[1;32mdb/schema.rb[0m
+[1;33m20[0m:    t.float    "[30;43mlongtitude[0m"[0m[K
+
+[1;32mdb/seeds.rb[0m
+[1;33m13[0m:  :[30;43mlongtitude[0m => -0.142000},[0m[K
+[1;33m19[0m:  :[30;43mlongtitude[0m => -0.205500},[0m[K
+[1;33m25[0m:  :[30;43mlongtitude[0m => -0.086667},[0m[K
+[1;33m31[0m:  :[30;43mlongtitude[0m => -0.013333},[0m[K
+[1;33m37[0m:  :[30;43mlongtitude[0m => -5.746944}[0m[K
+bash-3.2$ rake db:drop
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/01/04/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /Users/phil88530/Desktop/ruby/HouseSearcher/Rakefile:7)
+Couldn't drop db/test.sqlite3 : #<Errno::ENOENT: No such file or directory - /Users/phil88530/Desktop/ruby/HouseSearcher/db/test.sqlite3>
+bash-3.2$ bundle
+Using rake (10.0.4) 
+Using i18n (0.6.0) 
+Using multi_json (1.1.0) 
+Using activesupport (3.2.1) 
+Using builder (3.0.0) 
+Using activemodel (3.2.1) 
+Using erubis (2.7.0) 
+Using journey (1.0.3) 
+Using rack (1.4.1) 
+Using rack-cache (1.1) 
+Using rack-test (0.6.1) 
+Using hike (1.2.1) 
+Using tilt (1.3.3) 
+Using sprockets (2.1.2) 
+Using actionpack (3.2.1) 
+Using mime-types (1.17.2) 
+Using polyglot (0.3.3) 
+Using treetop (1.4.10) 
+Using mail (2.4.1) 
+Using actionmailer (3.2.1) 
+Using arel (3.0.2) 
+Using tzinfo (0.3.31) 
+Using activerecord (3.2.1) 
+Using activeresource (3.2.1) 
+Using daemons (1.1.8) 
+Using eventmachine (0.12.10) 
+Using execjs (1.3.0) 
+Using geocoder (1.1.8) 
+Using haml (3.1.4) 
+Using rack-ssl (1.3.2) 
+Using json (1.6.5) 
+Using rdoc (3.12) 
+Using thor (0.14.6) 
+Using railties (3.2.1) 
+Using haml-rails (0.3.4) 
+Using pg (0.13.2) 
+Using bundler (1.3.5) 
+Using rails (3.2.1) 
+Using sass (3.1.15) 
+Using sass-rails (3.2.4) 
+Using sqlite3 (1.3.5) 
+Using thin (1.3.1) 
+Using uglifier (1.2.3) 
+[32mYour bundle is complete![0m
+[32mUse `bundle show [gemname]` to see where a bundled gem is installed.[0m
+bash-3.2$ bundlerake db:drop[K[K[K[Kmigrate
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/01/04/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /Users/phil88530/Desktop/ruby/HouseSearcher/Rakefile:7)
+==  CreateProperties: migrating ===============================================
+-- create_table(:properties)
+   -> 0.0013s
+==  CreateProperties: migrated (0.0014s) ======================================
+
+bash-3.2$ rake db:seed
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/01/04/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /Users/phil88530/Desktop/ruby/HouseSearcher/Rakefile:7)
+bash-3.2$ ack longi[Kit[K[Ktitude
+bash-3.2$ ;s
+bash: syntax error near unexpected token `;'
+bash-3.2$ ;s
+bash: syntax error near unexpected token `;'
+bash-3.2$ c d[K[Kd app/
+bash-3.2$ ;s
+bash: syntax error near unexpected token `;'
+bash-3.2$ ls
+assets		controllers	helpers		mailers		models		views
+bash-3.2$ cd controllers/
+bash-3.2$ 
