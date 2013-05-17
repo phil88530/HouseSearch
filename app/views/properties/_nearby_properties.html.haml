@@ -5,6 +5,7 @@
   %h1 Nearby properties
   %table
     %tr
+      %th Number
       %th Name
       %th Bedroom
       %th Distance from search
@@ -14,8 +15,9 @@
       %th
       %th
 
-    - @properties.each do |property|
+    - @properties.each_with_index do |property, index|
       %tr
+        %td= index
         %td= property.name
         %td= property.bedroom
         %th= "#{property.distance_from(@property).round(2)} km"

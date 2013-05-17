@@ -759,4 +759,37 @@ Writing objects:   1% (1/89)   Writing objects:   2% (2/89)   Writing objects:
 Total 89 (delta 22), reused 0 (delta 0)
 To https://github.com/phil88530/HouseSearch.git
    2612046..31749de  HEAD -> master
-bash-3.2$ 
+bash-3.2$ git st
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	[31mmodified:   app/controllers/properties_controller.rb[m
+#	[31mmodified:   app/views/properties/show.html.haml[m
+#	[31mmodified:   typescript[m
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+bash-3.2$ git c[Kadd .
+bash-3.2$ git st
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	[32mmodified:   app/controllers/properties_controller.rb[m
+#	[32mmodified:   app/views/properties/show.html.haml[m
+#	[32mmodified:   typescript[m
+#
+bash-3.2$ git ci -m ""a"d"d"e"d" "a" "f"a"s"t" "g"e"o"[1P"[1P"[1P"g"o"g"l"e" "m"a"p" "f"o"r" "[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"o"g"l"e" "m"a"p"s" "f"i"r" "d"i"s"[1P"[1P"[1P"[1P"[1P"[1P"o"r" "d"i"s"p"l"a"y"
+[master b0cfe7e] added a fast google maps for display
+ 3 files changed, 211 insertions(+), 2 deletions(-)
+bash-3.2$ rails c
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/01/04/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /Users/phil88530/Desktop/ruby/HouseSearcher/config/environment.rb:5)
+Loading development environment (Rails 3.2.1)
+1.9.3-p194 :001 > Property.all
+  [1m[36mProperty Load (0.1ms)[0m  [1mSELECT "properties".* FROM "properties" [0m
+ => [#<Property id: 1, name: "Sizeable house", bedroom: 2, latitude: 51.501, longitude: -0.142, created_at: "2013-05-17 21:33:00", updated_at: "2013-05-17 21:33:00">, #<Property id: 2, name: "Trendy flat", bedroom: 2, latitude: 51.523778, longitude: -0.2055, created_at: "2013-05-17 21:33:00", updated_at: "2013-05-17 21:33:00">, #<Property id: 3, name: "Flat with stunning view", bedroom: 2, latitude: 51.504444, longitude: -0.086667, created_at: "2013-05-17 21:33:00", updated_at: "2013-05-17 21:33:00">, #<Property id: 4, name: "Unique flat", bedroom: 1, latitude: 51.538333, longitude: -0.013333, created_at: "2013-05-17 21:33:00", updated_at: "2013-05-17 21:33:00">, #<Property id: 5, name: "Isolated house", bedroom: 1, latitude: 50.066944, longitude: -5.746944, created_at: "2013-05-17 21:33:00", updated_at: "2013-05-17 21:33:00">] 
+1.9.3-p194 :002 > Property.all.class
+  [1m[35mProperty Load (0.3ms)[0m  SELECT "properties".* FROM "properties" 
+ => Array 
+1.9.3-p194 :003 > 
